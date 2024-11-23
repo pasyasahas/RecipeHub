@@ -4,12 +4,12 @@
 -> Import the project to xcode
 -> Build the app to the simulator
 
-## Scroll to view all the recipes
-## Tap on the show more to view the website and YouTube link.
-## Tap on website to view the source website of the recipe.
-## Tap on YouTube to view a YouTube video of the recipe.
-## Tap on show less to hide details.
-## Swipe down at the top of the list to refresh
+- Scroll to view all the recipes
+- Tap on the show more to view the website and YouTube link.
+- Tap on website to view the source website of the recipe.
+- Tap on YouTube to view a YouTube video of the recipe.
+- Tap on show less to hide details.
+- Swipe down at the top of the list to refresh
 
 
 ### Focus Areas: What specific areas of the project did you prioritize? Why did you choose to focus on these areas?
