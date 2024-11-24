@@ -32,7 +32,7 @@
 I made a tradeof on scaling by using URLSession over Alamofire. At the moment it were only simple get requests but if the same project was to be scaled up to creating recipies which would add post requests as well, we would then have to add Alamofire and refactor the existing network requests. 
 
 ### Weakest Part of the Project: What do you think is the weakest part of your project?
-Testing is my weakest part of the project.
+Unit testing is the weakest part of the project. Unit test could have negative test cases as well as validation of each custom error included.
 
 ### External Code and Dependencies: Did you use any external code, libraries, or dependencies?
 I refrained from using any third party dependencies as the application in itself is quite small also since the network calls are simple get requests I used URLSession rather than importing Alamofire.
