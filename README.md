@@ -40,6 +40,6 @@ I refrained from using any third party dependencies as the application in itself
 ### Additional Information: Is there anything else we should know? Feel free to share any insights or constraints you encountered.
 - The app supports:
   - iPhone, iPad
-  - Portrail, Landscape
+  - Portrait, Landscape
   - Light mode, Dark mode
 - I have designed custom errors for all test cases so if we intigrate firebase to the project and monitor logs if would make it easy to navigate to where the error popped from.
