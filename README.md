@@ -38,4 +38,8 @@ Testing is my weakest part of the project.
 I refrained from using any third party dependencies as the application in itself is quite small also since the network calls are simple get requests I used URLSession rather than importing Alamofire.
 
 ### Additional Information: Is there anything else we should know? Feel free to share any insights or constraints you encountered.
-I have designed custom errors for all test cases so if we intigrate firebase to the project and monitor logs if would make it easy to navigate to where the error popped from.
+- The app supports:
+  - iPhone, iPad
+  - Portrail, Landscape
+  - Light mode, Dark mode
+- I have designed custom errors for all test cases so if we intigrate firebase to the project and monitor logs if would make it easy to navigate to where the error popped from.
