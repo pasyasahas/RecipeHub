@@ -20,19 +20,19 @@
       Designed custom cards to display each recipe. A UI is one of the most import aspects of the app as that is what attracts the user and hooks the user to the app, a user-friendly ui with good animations will have a huge impact on the user.
 
 ### Time Spent: Approximately how long did you spend working on this project? How did you allocate your time?
--> Spent about 5 hours on the project, the specific split for each part of of the project is as below:
+-> Spent about 6 hours on the project, the specific split for each part of of the project is as below:
 
     UI: 1.5 hours
     ViewModels: 1 hour
     Data service: 1 hour
     File Manager: 1 hour
-    Testing: 0.5 hours
+    Testing: 1.5 hours
 
 ### Trade-offs and Decisions: Did you make any significant trade-offs in your approach?
-I made a trade-off againts designing the best I could againt testing it. I had to limit myself to the given time hence I wanted to focus on building the app than actually testing it.  
+I made a tradeof on scaling by using URLSession over Alamofire. At the moment it were only simple get requests but if the same project was to be scaled up to creating recipies which would add post requests as well, we would then have to add Alamofire and refactor the existing network requests. 
 
 ### Weakest Part of the Project: What do you think is the weakest part of your project?
-Testing is my weakest part of the project, since I was limited by time frame I worked on testing one modele(LocalFileManager) to display my approach to usint test i.e how would I look at test cases for uint test.
+Testing is my weakest part of the project.
 
 ### External Code and Dependencies: Did you use any external code, libraries, or dependencies?
 I refrained from using any third party dependencies as the application in itself is quite small also since the network calls are simple get requests I used URLSession rather than importing Alamofire.
